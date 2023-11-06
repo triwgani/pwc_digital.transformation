@@ -1,4 +1,7 @@
 # PwC Switzerland Virtual Case Experience
+
+![](PwC.png)
+
 This virtual Experience is held by PwC (PricewaterhouseCoopers) Switzerland. In this virtual experience case, I am given some tasks to simulate a condition in which I work together in a team to help client solve their problems by using technology. Power BI is used in the experience case to clean, wrangle, and visualize data so that client can better understand their customers and employees. There are 3 assigment topics in this case, i.e.: The Call Centre Trends, The Customer Retention, and the Diversity and Inclusion.
 
 ## The Call Centre Trends
