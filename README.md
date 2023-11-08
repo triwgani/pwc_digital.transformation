@@ -13,7 +13,9 @@ This virtual Experience is held by PwC (PricewaterhouseCoopers) Switzerland. In 
 ### Tasks:
 Create a dashboard in Power BI for Claire that reflects all relevant Key Performance Indicators (KPIs) and metrics in the dataset.
 
-Dataset source: https://cdn.theforage.com/vinternships/companyassets/4sLyCPgmsy8DA6Dh3/01%20Call-Center-Dataset.xlsx
+### Dataset source: 
+
+https://cdn.theforage.com/vinternships/companyassets/4sLyCPgmsy8DA6Dh3/01%20Call-Center-Dataset.xlsx
 
 (The above dataset source links was last accessed in November 8, 2023)
 
@@ -52,7 +54,7 @@ Customers in the telecom industry are hard-earned and the company doesn't want t
 1. Define proper KPIs
 2. Create a dashboard using the defined KPIs to reflect customer demographics and insights.
 
-Dataset Source:
+### Dataset Source:
 
 https://cdn.theforage.com/vinternships/companyassets/4sLyCPgmsy8DA6Dh3/02%20Churn-Dataset.xlsx
 https://cdn.theforage.com/vinternships/companyassets/4sLyCPgmsy8DA6Dh3/PhoneNow%20inputs%20(3).pdf
@@ -80,6 +82,12 @@ Human Resources at our telecom client is highly into diversity and inclusion. Th
 ### Tasks:
 1. Create visualizations to represent HR data, particularly focusing on gender-related KPIs.
 2. Identify and discuss potential root causes for the slow progress in achieving gender balance at the executive management level.
+
+### Dataset source: 
+
+https://cdn.theforage.com/vinternships/companyassets/4sLyCPgmsy8DA6Dh3/03%20Diversity-Inclusion-Dataset.xlsx
+
+(The above dataset source links were last accessed in November 8, 2023)
 
 ### Solutions:
 
