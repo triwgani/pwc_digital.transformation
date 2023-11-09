@@ -15,7 +15,7 @@ Create a dashboard in Power BI for Claire that reflects all relevant Key Perform
 
 ### Dataset source: 
 
-https://cdn.theforage.com/vinternships/companyassets/4sLyCPgmsy8DA6Dh3/01%20Call-Center-Dataset.xlsx
+`https://cdn.theforage.com/vinternships/companyassets/4sLyCPgmsy8DA6Dh3/01%20Call-Center-Dataset.xlsx`
 
 (The above dataset source links was last accessed in November 8, 2023)
 
@@ -56,8 +56,8 @@ Customers in the telecom industry are hard-earned and the company doesn't want t
 
 ### Dataset Source:
 
-https://cdn.theforage.com/vinternships/companyassets/4sLyCPgmsy8DA6Dh3/02%20Churn-Dataset.xlsx
-https://cdn.theforage.com/vinternships/companyassets/4sLyCPgmsy8DA6Dh3/PhoneNow%20inputs%20(3).pdf
+`https://cdn.theforage.com/vinternships/companyassets/4sLyCPgmsy8DA6Dh3/02%20Churn-Dataset.xlsx`
+`https://cdn.theforage.com/vinternships/companyassets/4sLyCPgmsy8DA6Dh3/PhoneNow%20inputs%20(3).pdf`
 
 (The above dataset source links were last accessed in November 8, 2023)
 
@@ -85,7 +85,7 @@ Human Resources at our telecom client is highly into diversity and inclusion. Th
 
 ### Dataset source: 
 
-https://cdn.theforage.com/vinternships/companyassets/4sLyCPgmsy8DA6Dh3/03%20Diversity-Inclusion-Dataset.xlsx
+`https://cdn.theforage.com/vinternships/companyassets/4sLyCPgmsy8DA6Dh3/03%20Diversity-Inclusion-Dataset.xlsx`
 
 (The above dataset source links were last accessed in November 8, 2023)
 
