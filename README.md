@@ -29,13 +29,13 @@ Possible KPIs include (to get started, but not limited to):
 4. Average speed of answer
 5. Agent’s performance quadrant -> average handle time (talk duration) vs calls answered
 
-There are 2 pages were created for the solution. The Dashboard and the Detail Page.
+There are 2 pages were created for the solution. The KPI Dashboard and the Detail Page.
 
-1. The Dashboard
+**The KPI Dashboard**
 
 ![](CallCenter01.png)
 
-2. The Detail Page
+**The Detail Page**
 
 ![](CallCenter02.png)
 
