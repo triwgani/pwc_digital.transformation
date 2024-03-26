@@ -106,6 +106,10 @@ Calculating the following measures could help to define proper KPIs:
 - Average performance rating: men
 - Average Performance rating: women
 
+The Diversity and Inclusion Dashboard can be used to help improve gender balance at the executive management level.
+
+![](D&I.png)
+
 ### Link to dashboard:
 
 The online report of the power bi can be found [here](https://app.powerbi.com/links/SPtB-0FoIJ?ctid=af2c0734-cb42-464f-b6bf-2a241b6ada56&pbi_source=linkShare)
