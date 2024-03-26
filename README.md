@@ -33,6 +33,8 @@ There are 2 pages were created for the solution. The Dashboard and the Detail Pa
 
 1. The Dashboard
 
+2. The Detail Page
+
 ![](CallCenter01.png)
 
 2. The Detail Page
