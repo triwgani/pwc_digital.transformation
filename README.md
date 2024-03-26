@@ -33,11 +33,11 @@ There are 2 pages were created for the solution. The Dashboard and the Detail Pa
 
 1. The Dashboard
 
- ![](CallCenter01.png)
-
+![](CallCenter01.png)
+ 
 2. The Detail Page
 
- ![](CallCenter02.png)
+![](CallCenter02.png)
 
 ### Link to dashboard:
 
