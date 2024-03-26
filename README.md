@@ -69,6 +69,7 @@ The Curn Rate Dashboard to help analyze the Retention Rate
 
 ### Link to dashboard:
 
+The online report of the power bi can be found [here](https://app.powerbi.com/links/2DFLi_ipSW?ctid=af2c0734-cb42-464f-b6bf-2a241b6ada56&pbi_source=linkShare)
 
 ## Diversity and Inclusion
 
