@@ -70,6 +70,10 @@ Call Resolution Rate (%) = DIVIDE([Resolved Call],[No of Answered Call])
 ```Sh
 Duration per Answered Call = DIVIDE(CALCULATE(sum(CallData[CallDuration]),CallData[CallDuration]>0),[No of Answered Call])
 ```
+- Adding No of Abandoned Call
+```Sh
+No of Abandoned Call = CALCULATE(COUNT(CallData[Call Id]),'CallData'[Answered (Y/N)]="N")
+```
 
 **The Call Center Data Model**
 
