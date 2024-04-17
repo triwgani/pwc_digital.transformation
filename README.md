@@ -49,6 +49,32 @@ Possible KPIs include (to get started, but not limited to):
 4. Average speed of answer
 5. Agent’s performance quadrant -> average handle time (talk duration) vs calls answered
 
+**Adding Calculated Fields and DAX (Data Analysis eXpression)**
+- Adding Abandoned Rate
+```Sh
+Abandoned Rate = DIVIDE([No of Abandoned Call],DISTINCTCOUNT(CallData[Call Id]))
+```
+- Adding Answ to Abandoned Rate
+```Sh
+Answ to Abandoned Rate = DIVIDE([No of Answered Call],[No of Abandoned Call])
+```
+- Adding Avg Speed of Answer
+```Sh
+Avg Speed of Answer = DIVIDE(SUM(CallData[Speed of answer in seconds]),[No of Answered Call])
+```
+- Adding Call Resolution Rate (%)
+```Sh
+Call Resolution Rate (%) = DIVIDE([Resolved Call],[No of Answered Call])
+```
+- Adding Duration per Answered Call
+```Sh
+Duration per Answered Call = DIVIDE(CALCULATE(sum(CallData[CallDuration]),CallData[CallDuration]>0),[No of Answered Call])
+```
+
+**The Call Center Data Model**
+
+![](CallCenterDataModel.png)
+
 There are 2 pages were created for the solution. The KPI Dashboard and the Detail Page.
 
 **The KPI Dashboard**
