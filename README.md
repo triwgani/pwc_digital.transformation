@@ -4,6 +4,13 @@
 
 This virtual Experience is held by PwC (PricewaterhouseCoopers) Switzerland. In this virtual experience case, I have been given some tasks to simulate a condition in which I work together in a team to help client solve their problems by using technology. Power BI is used in the experience case to clean, wrangle, and visualize data so that client can better understand their customers and employees. There are 3 assigment topics in this case, i.e.: The Call Centre Trends, The Customer Retention, and the Diversity and Inclusion.
 
+There are 3 Datasets used in this project, i.e.:
+1. 01 Call-Center-Dataset.xlsx
+2. 02 Churn-Dataset.xlsx
+3. 03 Diversity-Inclusion-Dataset.xlsx
+
+![](PWCProcessFlow.png)
+
 ## 1. The Call Centre Trends
 ### Lesson Learned:
 1. The importance of upskilling in the digital age and its role in the workplace.
@@ -19,7 +26,18 @@ Create a dashboard in Power BI for Claire that reflects all relevant Key Perform
 
 (The above dataset source links was last accessed in November 8, 2023)
 
-
+| **Field Name** | **Data Type** |
+| ------ | ------ |
+| Call Id | Text|
+| Agent | Text |
+| Date | Date |
+| Time | Time |
+| Topic | Text |
+| Answered (Y/N) | Text |
+| Resolved | Text |
+| Speed of answer in seconds |Decimal Number |
+| AvgTalkDuration | Time |
+| Satisfaction rating | Decimal Number |
 
 ### Solutions:
 
