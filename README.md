@@ -74,6 +74,26 @@ Duration per Answered Call = DIVIDE(CALCULATE(sum(CallData[CallDuration]),CallDa
 ```Sh
 No of Abandoned Call = CALCULATE(COUNT(CallData[Call Id]),'CallData'[Answered (Y/N)]="N")
 ```
+- Adding No of Answered Call
+```Sh
+No of Answered Call = CALCULATE(COUNT(CallData[Call Id]),'CallData'[Answered (Y/N)]="Y")
+```
+- Adding Resolved Call
+```Sh
+Resolved Call = CALCULATE(COUNT(CallData[Resolved]), AND(CallData[Answered (Y/N)]="Y",CallData[Resolved]="Y"))
+```
+- Adding Satisfaction Score
+```Sh
+Satisfaction Score = DIVIDE(CALCULATE(SUM(CallData[Satisfaction rating]),CallData[Answered (Y/N)]="Y"),[No of Answered Call])
+```
+- Adding Total Call
+```Sh
+Total Call = DISTINCTCOUNT(CallData[Call Id])
+```
+- Adding Total Duration
+```Sh
+Total Duration = CALCULATE(SUM(CallData[CallDuration]),CallData[CallDuration]>0)
+```
 
 **The Call Center Data Model**
 
