@@ -161,6 +161,35 @@ Customers in the telecom industry are hard-earned and the company doesn't want t
 
 ### Solutions:
 
+**Adding Calculated Fields and DAX (Data Analysis eXpression)**
+
+- Adding # Customer
+```Sh
+# Customer = DISTINCTCOUNT(ChurnDataset[CustID])
+```
+- Adding # Dependents
+```Sh
+# Dependents = CALCULATE(DISTINCTCOUNT(ChurnDataset[CustID]),ChurnDataset[Dependents]="Yes")
+```
+- Adding # DeviceProtection
+```Sh
+# DeviceProtection = CALCULATE(DISTINCTCOUNT(ChurnDataset[CustID]),ChurnDataset[DeviceProtection]="Yes")
+```
+- Adding # NonPaperless
+```Sh
+# NonPaperless = CALCULATE(DISTINCTCOUNT(ChurnDataset[CustID]),ChurnDataset[PaperlessBilling]="No")
+```
+- Adding # OnlineBackup
+```Sh
+# OnlineBackup = CALCULATE(DISTINCTCOUNT(ChurnDataset[CustID]),ChurnDataset[OnlineBackup]="Yes")
+```
+
+**The Call Center Data Model**
+
+![](ChurnDataModel.png)
+
+**The Churn Analysis Dashboard**
+
 The Curn Rate Dashboard to help analyze the Retention Rate
 
 ![](Churn.png)
