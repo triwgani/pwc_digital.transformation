@@ -78,9 +78,36 @@ Customers in the telecom industry are hard-earned and the company doesn't want t
 ### Dataset Source:
 
 `https://cdn.theforage.com/vinternships/companyassets/4sLyCPgmsy8DA6Dh3/02%20Churn-Dataset.xlsx`
-`https://cdn.theforage.com/vinternships/companyassets/4sLyCPgmsy8DA6Dh3/PhoneNow%20inputs%20(3).pdf`
 
 (The above dataset source links were last accessed in November 8, 2023)
+
+| **Field Name** | **Data Type** |
+| ------ | ------ |
+| CustID | Text|
+| Gender | Text |
+| SeniorCitizen | Text |
+| Partner | Text |
+| Dependents | Text |
+| Tenure_(Month) | Whole Number |
+| Phone | Text |
+| MultipleLines | Text |
+| Internet | Text |
+| OnlineSecurity | Text |
+| OnlineBackup | Text|
+| DeviceProtection | Text |
+| TechSupport | Text |
+| StreamingTV | Text |
+| StreamingMovies | Text |
+| Contract | Text |
+| PaperlessBilling | Text |
+| PaymentMethod | Text |
+| MonthlyCharges | Decimal Number |
+| TotalCharges | Currency / Fixed Decimal Number |
+| #AdminTickets | Whole Number |
+| #TechTickets | Whole Number |
+| Churn | Text |
+| SubsPeriod | Text |
+| PaymentGroup | Text |
 
 ### Solutions:
 
@@ -110,6 +137,41 @@ Human Resources at our telecom client is highly into diversity and inclusion. Th
 `https://cdn.theforage.com/vinternships/companyassets/4sLyCPgmsy8DA6Dh3/03%20Diversity-Inclusion-Dataset.xlsx`
 
 (The above dataset source links were last accessed in November 8, 2023)
+
+| **Field Name** | **Data Type** |
+| ------ | ------ |
+| Employee ID | Text|
+| Gender | Text |
+| Job Level after FY20 promotions | Text |
+| New hire FY20? | Text |
+| FY20 Performance Rating | Decimal Number |
+| Promotion in FY21? | Text |
+| In base group for Promotion FY21 | Text |
+| Target hire balance | Decimal Number |
+| FY20 leaver?| Text |
+| In base group for turnover FY20 | Text |
+| Department @01.07.2020 | Text|
+| Leaver FY | Text |
+| Job Level after FY21 promotions | Text |
+| Last Department in FY20 | Text |
+| FTE group | Decimal Number |
+| Time type | Text |
+| Department & JL group PRA status | Text |
+| Department & JL group for PRA | Text |
+| Job Level group PRA status| Text |
+| Job Level group for PRA | Text |
+| Time in Job Level @01.07.2020 | Whole Number |
+| Job Level before FY20 promotions | Text |
+| Promotion in FY20? | Text |
+| FY19 Performance Rating | Decimal Number |
+| Age group | Text |
+| Age @01.07.2020 | Whole Number |
+| Nationality 1 | Text |
+| Region group: nationality 1 | Text |
+| Broad region group: nationality 1 | Text |
+| Last hire date | Date |
+| Years since last hire | Whole Number |
+| Rand | Decimal Number |
 
 ### Solutions:
 
