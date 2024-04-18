@@ -303,6 +303,105 @@ Calculating the following measures could help to define proper KPIs:
 - Average performance rating: men
 - Average Performance rating: women
 
+**Adding Calculated Fields and DAX (Data Analysis eXpression)**
+
+- Adding #Leaver FY20
+```Sh
+#Leaver FY20 = CALCULATE(DISTINCTCOUNT('Pharma Group AG'[Employee ID]),'Pharma Group AG'[FY20 leaver?]="Yes")
+```
+- Adding #Men
+```Sh
+#Men = calculate(DISTINCTCOUNT('Pharma Group AG'[Employee ID]),'Pharma Group AG'[Gender]="Male")
+```
+- Adding #New Hire FY20
+```Sh
+#New Hire FY20 = CALCULATE(COUNT('Pharma Group AG'[Employee ID]),'Pharma Group AG'[New hire FY20?]="Y")
+```
+- Adding #New Hire Men
+```Sh
+#New Hire Men = CALCULATE([#New Hire FY20],'Pharma Group AG'[Gender]="Male")
+```
+- Adding #Women
+```Sh
+#Women = calculate(DISTINCTCOUNT('Pharma Group AG'[Employee ID]),'Pharma Group AG'[Gender]="Female")
+```
+- Adding #New Hire Women
+```Sh
+#New Hire Women = CALCULATE([#New Hire FY20],'Pharma Group AG'[Gender]="Female")
+```
+- Adding #Promoted Employee
+```Sh
+#Promoted Employee = CALCULATE([Total Employee EO FY20],'Pharma Group AG'[Promotion in FY21?]="Yes")
+```
+- Adding #Promoted Men
+```Sh
+#Promoted Men = CALCULATE([#Promoted Employee],'Pharma Group AG'[Gender]="Male")
+```
+- Adding #Promoted Women
+```Sh
+#Promoted Women = CALCULATE([#Promoted Employee],'Pharma Group AG'[Gender]="Female")
+```
+- Adding %New Hire Men
+```Sh
+%New Hire Men = DIVIDE([#New Hire Men],[#New Hire FY20])
+```
+- Adding %New Hire Women
+```Sh
+%New Hire Women = DIVIDE([#New Hire Women],[#New Hire FY20])
+```
+- Adding Total Employee AB FY20 
+```Sh
+Total Employee AB FY20 = CALCULATE(DISTINCTCOUNT('Pharma Group AG'[Employee ID]),'Pharma Group AG'[New hire FY20?]="N")
+```
+- Adding Total Employee EO FY20
+```Sh
+Total Employee EO FY20 = DISTINCTCOUNT('Pharma Group AG'[Employee ID])
+```
+- Adding Average # Employee
+```Sh
+Average # Employee = 0.5*([Total Employee AB FY20]+[Total Employee EO FY20])
+```
+- Adding Avg Performance
+```Sh
+Avg Performance = CALCULATE(AVERAGE('Pharma Group AG'[FY20 Performance Rating]),'Pharma Group AG'[FY20 Performance Rating]>0)
+```
+- Adding Avg Performance (Men)
+```Sh
+Avg Performance (Men) = CALCULATE(AVERAGE('Pharma Group AG'[FY20 Performance Rating]),'Pharma Group AG'[FY20 Performance Rating]>0,'Pharma Group AG'[Gender]="Male")
+```
+- Adding Avg Performance (Women)
+```Sh
+Avg Performance (Women) = CALCULATE(AVERAGE('Pharma Group AG'[FY20 Performance Rating]),'Pharma Group AG'[FY20 Performance Rating]>0,'Pharma Group AG'[Gender]="Female")
+```
+- Adding Turnover Rate
+```Sh
+Turnover Rate = DIVIDE([#Leaver FY20],0.5*([Total Employee AB FY20]+[Total Employee EO FY20]))
+```
+- Adding Men Turnover Rate
+```Sh
+Men Turnover Rate = DIVIDE(CALCULATE([#Leaver FY20],'Pharma Group AG'[Gender]="Male"),0.5*(CALCULATE([Total Employee AB FY20]+CALCULATE([Total Employee EO FY20]),'Pharma Group AG'[Gender]="Male")))
+```
+- Adding Women Turnover Rate
+```Sh
+Women Turnover Rate = DIVIDE(CALCULATE([#Leaver FY20],'Pharma Group AG'[Gender]="Female"),0.5*(CALCULATE([Total Employee AB FY20]+CALCULATE([Total Employee EO FY20]),'Pharma Group AG'[Gender]="Female")))
+```
+- Adding Promotion Rate
+```Sh
+Promotion Rate = DIVIDE([#Promoted Employee],[Total Employee EO FY20])
+```
+- Adding Promoted Men Rate
+```Sh
+Promoted Men Rate = DIVIDE([#Promoted Men],[#Promoted Employee])
+```
+- Adding Promoted Women Rate
+```Sh
+Promoted Women Rate = DIVIDE([#Promoted Women],[#Promoted Employee])
+```
+
+**The Call Center Data Model**
+
+![](D&IDataModel.png)
+
 The Diversity and Inclusion Dashboard can be used to help improve gender balance at the executive management level.
 
 ![](D&I.png)
