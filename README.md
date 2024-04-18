@@ -183,6 +183,42 @@ Customers in the telecom industry are hard-earned and the company doesn't want t
 ```Sh
 # OnlineBackup = CALCULATE(DISTINCTCOUNT(ChurnDataset[CustID]),ChurnDataset[OnlineBackup]="Yes")
 ```
+- Adding # OnlineSecurity
+```Sh
+# OnlineSecurity = CALCULATE(DISTINCTCOUNT(ChurnDataset[CustID]),ChurnDataset[OnlineSecurity]="Yes")
+```
+- Adding # Paperless
+```Sh
+# Paperless = CALCULATE(DISTINCTCOUNT(ChurnDataset[CustID]),ChurnDataset[PaperlessBilling]="Yes")
+```
+- Adding # Partner
+```Sh
+# Partner = CALCULATE(DISTINCTCOUNT(ChurnDataset[CustID]),ChurnDataset[Partner]="Yes")
+```
+- Adding # Senior Citizen
+```Sh
+# Senior Citizen = CALCULATE(DISTINCTCOUNT(ChurnDataset[CustID]),ChurnDataset[SeniorCitizen]="Yes")
+```
+- Adding # StreamingMovies
+```Sh
+# StreamingMovies = CALCULATE(DISTINCTCOUNT(ChurnDataset[CustID]),ChurnDataset[StreamingMovies]="Yes")
+```
+- Adding # StreamingTV
+```Sh
+# StreamingTV = CALCULATE(DISTINCTCOUNT(ChurnDataset[CustID]),ChurnDataset[StreamingTV]="Yes")
+```
+- Adding # TechSupport
+```Sh
+# TechSupport = CALCULATE(DISTINCTCOUNT(ChurnDataset[CustID]),ChurnDataset[TechSupport]="Yes")
+```
+- Adding #Churn
+```Sh
+#Churn = CALCULATE(count(ChurnDataset[Churn]),ChurnDataset[Churn]="Yes")
+```
+- Adding Churn Rate
+```Sh
+Churn Rate = DIVIDE('Measures Table'[#Churn],[# Customer])
+```
 
 **The Call Center Data Model**
 
